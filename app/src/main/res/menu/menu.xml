@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search_black"
+        android:orderInCategory="100"
+        android:title="search"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        />
+
+    <item
+        android:id="@+id/log_out"
+        android:icon="@drawable/ic_logout"
+        android:orderInCategory="100"
+        android:title="log out"
+        app:showAsAction="always" />
+
+</menu>

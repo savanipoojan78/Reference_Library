@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_home_black_24dp"
+            android:id="@+id/nav_home"
+            android:title="Reference" />
+        <item
+            android:id="@+id/nav_acc"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:title="Account" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="History" />
+        <item
+            android:id="@+id/nav_viewer"
+            android:icon="@drawable/ic_picture_as_pdf_black_24dp"
+            android:title="PDF Viewer"
+            />
+    </group>
+
+    <item android:title="More">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>

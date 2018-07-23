@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Reference Library</string>
+    <string name="title_activity_main2">MainActivity2</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="registration_terms_policy_text">By clicking on Register you agree to our <b> Privacy Policy</b> &amp;
+        <b> Terms and Conditions</b></string>
+
+
+</resources>
